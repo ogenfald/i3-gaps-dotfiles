@@ -5,4 +5,4 @@ Dotfiles for i3-gaps
 # Gtk Theme
 I use Adwaita Dark and Papirus Icons
 # Wallpaper
-![wallpaper](https://www.hdwallpapers.in/download/tohru_kanna_kamui_miss_kobayashis_dragon_maid_4k_8k-HD.jpg "Wallpaper")
+[Wallpaper](https://www.hdwallpapers.in/download/tohru_kanna_kamui_miss_kobayashis_dragon_maid_4k_8k-HD.jpg)
