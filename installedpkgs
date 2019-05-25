@@ -13,6 +13,7 @@ bison
 blueman
 bluez
 bluez-utils
+bridge-utils
 bzip2
 compton
 coreutils
@@ -45,12 +46,15 @@ gcc-libs
 gettext
 git
 glibc
+gnome-keyring
 gnome-themes-extra
 go
 grep
 groff
 grub
+gst-libav
 gst-plugins-good
+gstreamer-vaapi
 gzip
 htop
 i3-gaps
@@ -131,6 +135,7 @@ pacman
 papirus-icon-theme
 patch
 pciutils
+pdfjs
 perl
 pkgconf
 polkit-gnome
@@ -139,11 +144,13 @@ psmisc
 pulseaudio
 pulseaudio-alsa
 pulsemixer
+python-cssutils
 python-pip
 python-pywal
 qemu
 qt5-styleplugins
 qt5ct
+qutebrowser
 ranger
 reiserfsprogs
 retroarch
@@ -158,6 +165,7 @@ sndio
 steam
 sudo
 sysfsutils
+sysstat
 systemd
 systemd-sysvcompat
 tar
@@ -180,6 +188,7 @@ w3m
 which
 wpa_supplicant
 xf86-input-evdev
+xf86-input-synaptics
 xf86-input-wacom
 xf86-video-intel
 xfsprogs
