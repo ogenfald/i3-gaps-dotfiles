@@ -37,6 +37,11 @@ interval=1
 # The first parameter sets the step (and units to display)
 # The second parameter overrides the mixer selection
 # See the script for details.
+[backlight]
+label=☼
+command=printf "%.0f\n" $(xbacklight -get)
+interval=1
+
 [volume]
 #label=VOL
 label=
@@ -65,12 +70,12 @@ interval=1
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label= ROOT
+label=  /
 instance=/
 interval=30
 
 [disk]
-label= HOME
+label=  ~/
 interval=30
 
 # Network interface monitoring
@@ -108,7 +113,7 @@ interval=1
 # The script may be called with -w and -c switches to specify thresholds,
 # see the script for details.
 [temperature]
-label= 
+label=
 interval=1
 
 # CPU usage
@@ -127,7 +132,7 @@ align=center
 # Date Time
 #
 [time]
-label= 
+label=
 command=date '+%Y-%m-%d %I:%M%P'
 interval=5
 
